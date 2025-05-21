@@ -1434,6 +1434,10 @@ h2{
     display: block;
   }
 
+  .lg\:flex{
+    display: flex;
+  }
+
   .lg\:hidden{
     display: none;
   }
@@ -1460,6 +1464,10 @@ h2{
 
   .lg\:flex-row-reverse{
     flex-direction: row-reverse;
+  }
+
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:bg-transparent{
