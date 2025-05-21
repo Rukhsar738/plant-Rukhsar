@@ -15,7 +15,20 @@ navMenu.classList.toggle("left-[0]")
 })
 })
 /*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
+const scrollUp = () =>{
+  const scrollUpBtn = document.getElementById("Scroll-up ")
 
+  if(this.scrollY >=250){
+    scrollUpBtn.classList.remove("-buttom-1/2")
+        scrollUpBtn.classList.add("buttom-1/2")
+
+  }else{
+    scrollUpBtn.classList.add("-buttom-1/2")
+        scrollUpBtn.classList.remove("buttom-1/2")
+  }
+}
+
+window.addEventListener("scroll",scrollUp)
 
 /*~~~~~~~~~~~~~~~ CHANGE BACKGROUND HEADER ~~~~~~~~~~~~~~~*/
 
